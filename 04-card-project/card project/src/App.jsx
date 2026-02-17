@@ -1,52 +1,24 @@
 import React from "react";
-import { Bookmark } from "lucide-react";
+import Card from "./components/Card";
 import "./App.css";
+import { User, Users } from "lucide-react";
+import Bond from "./components/Bond";
 
-const App = () => {
+  const App = () => {
+   const arr=[435,435,43,43,234,3456,23,32,23,423,67546,23,234]
+
   return (
-    <div className="parent">
-      <div className="card">
+  
+  <div className="parent">
+    {/* {/* <Bond name={arr[4]}  />
+   <Bond name="Satyam"  /> */}
+    {/* <Bond name="Rahul"  />
+    <Bond name={arr[7]} /> */}
+     {/* <Bond name="Shivam"  />
+      // <Bond age ="90"  /> */} 
+    {/* i want to print the whole arr but the main problem is that  */}
 
-        {/* Top Section */}
-        <div className="top">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5OkW9RkLNurdw_VTuB4jP8c1wU5wZaVOsLA&s"
-            alt="logo"
-          />
-          <button className="save-btn">
-            Save <Bookmark size={16} />
-          </button>
-        </div>
-
-        {/* Center Section */}
-        <div className="center">
-          <h3>
-            Amazon <span>5 days ago</span>
-          </h3>
-
-          <h2>Senior UI/UX Designer</h2>
-
-          <div className="tab">
-            <h4>Part-Time</h4>
-            <h4>Senior Level</h4>
-          </div>
-        </div>
-
-        {/* Divider */}
-        <div className="divider"></div>
-
-        {/* Bottom Section */}
-        <div className="bottom">
-          <div className="bond">
-            <h3>$120/hr</h3>
-            <p>Pune, India</p>
-          </div>
-
-          <button className="apply-btn">Apply Now</button>
-        </div>
-
-      </div>
-    </div>
+  </div>
   );
 };
 

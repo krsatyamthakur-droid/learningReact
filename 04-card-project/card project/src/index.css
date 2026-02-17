@@ -10,11 +10,16 @@ body {
 }
 
 /* Center card on screen */
+
 .parent {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  flex-wrap: wrap;
 
-
-  height: 100vh;
 }
+
+
 
 /* Card */
 .card {
@@ -88,9 +93,14 @@ body {
 
 /* Divider */
 .divider {
-  height: 1px;
-  background-color: #e5e5e5;
-  margin: 25px 0;
+height: 1px;
+  background-color: #e0dddd;
+  width: 100%;
+  align-self: stretch;
+
+  
+
+   
 }
 
 /* Bottom Section */
