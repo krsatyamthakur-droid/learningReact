@@ -1,12 +1,15 @@
 import { Bookmark } from "lucide-react";
 import React from "react";
-  const Card = () => {
+  const Card = (props) => {
+    console.log(props.company); 
+    console.log(props.post);
   return (
+    
 
       <div className="card">
         <div className="top">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5OkW9RkLNurdw_VTuB4jP8c1wU5wZaVOsLA&s"
+            src={props.brandLogo}
             alt="logo"
           />
           <button className="save-btn">
@@ -16,14 +19,14 @@ import React from "react";
 
         <div className="center">
           <h3>
-            Amazon <span>5 days ago</span>
+            {props.company } <span>{props.date}</span>
           </h3>
 
-          <h2>Senior UI/UX Designer</h2>
+          <h2>{props.post}</h2>
 
           <div className="tab">
-            <h4>Part-Time</h4>
-            <h4>Senior Level</h4>
+            <h4>{props.tag1}</h4>
+            <h4>{props.tag2}</h4>
           </div>
         </div>
 
@@ -31,8 +34,8 @@ import React from "react";
 
         <div className="bottom">
           <div className="bond">
-            <h3>$120/hr</h3>
-            <p>Pune, India</p>
+            <h3>{props.pay}</h3>
+            <p>{props.location}</p>
           </div>
 
           <button className="apply-btn">Apply Now</button>
