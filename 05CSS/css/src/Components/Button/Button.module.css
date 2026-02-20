@@ -1,0 +1,10 @@
+.btn{
+  font-size: xxx-large;
+  color: rgb(79, 161, 61);
+  background-color:  #29d5b0;
+   width: fit-content;
+   padding: 40px 40px;
+   margin-left: 20px ;
+   margin-top: 20px ;
+   border-radius: 20px;
+}
