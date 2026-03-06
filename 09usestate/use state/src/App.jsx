@@ -9,7 +9,7 @@
 //   }
 //   return (
 //     <div>
-//       <h1> value of a is {Num} <br /> my name is {user} and i kill {Num} people</h1>
+//       <h1> value of a is {Num} <br /> my name is {user} and i save {Num} people</h1>
 //       <button onClick={changeNum} >click me  </button>
 //     </div>
 //   )
