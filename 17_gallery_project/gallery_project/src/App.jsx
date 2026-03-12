@@ -17,7 +17,8 @@ const App = () => {
     // console.log(response)
     // console.log(response.data)
   // axios.post('https://picsum.photos/v2/list?page=2&limit=100',
-  //   {username:'satyma',age:19,school:'vedam'})
+  //  {username:'satyma',age:19,school:'vedam'})
+  // code 
   }
   useEffect(function(){
     getData()
